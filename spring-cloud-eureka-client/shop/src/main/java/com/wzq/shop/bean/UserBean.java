@@ -1,4 +1,4 @@
-package com.wzq.user.bean;
+package com.wzq.shop.bean;
 
 public class UserBean {
 

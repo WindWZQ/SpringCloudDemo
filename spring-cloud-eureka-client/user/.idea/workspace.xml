@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e3c6505-b09a-4cce-a32f-041ce5a6ca64" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/../../spring-cloud-config-server/gitconf/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-cloud-config-server/gitconf/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-cloud-config-server/gitconf/src/main/java/com/wzq/gitconf/GitconfApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-cloud-config-server/gitconf/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-cloud-config-server/gitconf/src/test/java/com/wzq/gitconf/GitconfApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../config/service-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../config/config-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../config/service-pro.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../config/config-pro.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../config/service-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../config/config-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-config-server/gitconf/src/main/java/com/wzq/gitconf/GitconfApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-config-server/gitconf/src/main/java/com/wzq/gitconf/GitconfApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-config-server/gitconf/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-config-server/gitconf/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../shop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -46,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wzq/user/UserApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
@@ -55,6 +55,15 @@
                 <element signature="e#330#331#0" expanded="true" />
                 <element signature="e#396#397#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -187,7 +196,7 @@
       <workItem from="1558666614967" duration="5388000" />
       <workItem from="1558923526779" duration="3513000" />
       <workItem from="1559005033062" duration="1485000" />
-      <workItem from="1559533028991" duration="932000" />
+      <workItem from="1559533028991" duration="1535000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1558666847739</created>
@@ -214,7 +223,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11318000" />
+    <option name="totallyTimeSpent" value="11921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -339,13 +348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wzq/user/UserApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -354,6 +356,13 @@
             <element signature="e#330#331#0" expanded="true" />
             <element signature="e#396#397#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>

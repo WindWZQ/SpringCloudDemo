@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b19872f4-8e4a-43dd-962b-236079f8769d" name="Default Changelist" comment="init">
-      <change beforePath="$PROJECT_DIR$/../../config/service-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../config/config-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../config/service-pro.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../config/config-pro.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../config/service-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../config/config-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-config-server/gitconf/src/main/java/com/wzq/gitconf/GitconfApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-config-server/gitconf/src/main/java/com/wzq/gitconf/GitconfApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring-cloud-config-server/gitconf/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-config-server/gitconf/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/src/main/java/com/wzq/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/com/wzq/user/UserApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />

@@ -18,7 +18,7 @@ public class TestController {
 
     @RequestMapping("hello")
     public String from() {
-        return profile + " " + version + " " + content;
+        return profile + "," + version + "," + content;
     }
 
 }

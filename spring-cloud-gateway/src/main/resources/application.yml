@@ -13,7 +13,12 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: user
-          uri: lb://user
+        - id: shop
+          uri: lb://shop
           predicates:
-            - Path=/user/**
+            - Path=/shop/**
+          filters:
+            - StripPrefix=1 #转发时去掉shop
+      discovery:
+        locator:
+          lower-case-service-id: true

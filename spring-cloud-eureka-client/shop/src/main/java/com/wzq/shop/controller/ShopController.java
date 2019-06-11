@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("shop")
+@RequestMapping("what")
 public class ShopController {
 
     @Autowired
@@ -21,5 +21,21 @@ public class ShopController {
 
         return "shop call user: " + JSON.toJSONString(userBean);
     }
+
+    @GetMapping("test1")
+    public String test1() {
+        return "test from shop 1";
+    }
+
+    @GetMapping("test2")
+    public String test2() {
+        return "test from shop 2";
+    }
+
+    @GetMapping("test3")
+    public String test3() {
+        return "test from shop 3";
+    }
+
 
 }
